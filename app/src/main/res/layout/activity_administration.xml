@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/text_margin"
+        android:background="#ffff"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="#EF0606"
+        android:layout_margin="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:fontFamily="@string/bold"
+        android:text="University Administration"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:paddingLeft="12dp"
+            android:layout_marginTop="34dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professor Dr. Md. Shah-E-Alam"
+                android:padding="5dp"
+                android:textColor="#FF0505"
+                android:textSize="25dp"
+                android:fontFamily="@string/bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="Vice-Chancellor"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="#FF0505"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="180dp"
+            android:src="@drawable/shahealom"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"/>
+
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="34dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Professor Mustafizur Rahman"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="25dp"
+                    android:fontFamily="@string/bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="Pro Vice-Chancellor"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="180dp"
+                android:src="@drawable/mustafizur"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="34dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Majibar Rahman Miah"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="25dp"
+                    android:fontFamily="@string/bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="Treasurer"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="180dp"
+                android:src="@drawable/majibar"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="59dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="M A Hannan"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="25dp"
+                    android:fontFamily="@string/bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="Registrar\n"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="180dp"
+                android:src="@drawable/hannan"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="34dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mrs. Saima Sultana"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="25dp"
+                    android:fontFamily="@string/bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="Director"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="#FF0505"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="180dp"
+                android:src="@drawable/saima"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"/>
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/back"
+            android:background="#F60202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back to HomePage"
+            android:layout_marginBottom="35dp"
+            android:textSize="@dimen/title_size1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/design_default_color_on_primary"
+            android:fontFamily="@string/bold"/>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

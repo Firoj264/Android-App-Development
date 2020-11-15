@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cse_home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/slider"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#EF0606"
+                android:padding="10dp"
+                android:layout_margin="6dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:fontFamily="@string/bold"
+                android:text="Welcome To Department of Computer Science and Engineering"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:background="#FBFBFB"
+                android:layout_margin="6dp"
+                android:fontFamily="@string/light"
+                android:text="@string/aboutcse"
+                android:textColor="#070707"
+                android:textSize="@dimen/text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Program Offered in Computer Science &amp; Engineering"
+                    android:textSize="@dimen/title_size1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:background="#F60202"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:fontFamily="@string/bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/design_default_color_on_primary"
+                android:padding="@dimen/text_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day Program"
+
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#070707"
+                    android:fontFamily="@string/light"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#070707"
+                    android:fontFamily="@string/light"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textColor="#Ffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text="Four Year Syllabus for Day program"
+                    android:layout_marginBottom="@dimen/text_margin"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Evening Program"
+
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#070707"
+                    android:fontFamily="@string/light"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/evening"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#070707"
+                    android:fontFamily="@string/light"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textColor="#Ffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Four Year Syllabus for Evening program"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#EF0606"
+                    android:padding="10dp"
+                    android:layout_margin="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="@dimen/text_margin"
+                    android:fontFamily="@string/bold"
+                    android:text="Entry Requirements"
+                    android:textColor="#FBFBFB"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:background="#FBFBFB"
+                    android:layout_margin="6dp"
+                    android:fontFamily="@string/light"
+                    android:text="@string/entry"
+                    android:textColor="#070707"
+                    android:textSize="@dimen/text_size" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textColor="#Ffff"
+                    android:layout_marginRight="5dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:text="Faculty Members"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin"
+                    android:text="Research Area"
+                    android:layout_marginRight="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="#Ffff"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin"
+                    android:text="Lab Facilities"
+                    android:textAllCaps="false"
+                    android:textColor="#Ffff"
+                    android:textSize="11dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textColor="#Ffff"
+                android:layout_marginRight="5dp"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:text="Admission details"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:text="Tution Fees"
+                android:layout_marginRight="5dp"
+                android:textAllCaps="false"
+                android:textColor="#Ffff"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:text="Apply Online"
+                android:textAllCaps="false"
+                android:textColor="#Ffff"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:text="BACK TO HOME PAGE"
+                android:textAllCaps="false"
+                android:textColor="#Ffff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>

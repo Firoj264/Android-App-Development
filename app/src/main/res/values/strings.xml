@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">City University</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/oswaldbold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/oswaldregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/oswaldlight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="contact1">Permanent Campus: </string>
+    <string name="contact2">City University</string>
+    <string name="contact3">Khagan, Ashulia, Birulia, Savar, Dhaka, Bangladesh</string>
+    <string name="contact4">Cell: +880 1854-640491, +880 1854-640476,</string>
+    <string name="contact5">E-mail: arcityuniversity@gmail.com</string>
+    <string name="evening">The Evening Program is only for diploma background student and anyone who cannot participate in the Regular Program due to their daytime work. The program focuses on enhancing communication proficiency, which is essential for business people living in Bangladesh.\nClasses are offered 3 days a week (Thursday/Friday/Saturday) </string>
+
+    <string name="contact11">City Campus</string>
+    <string name="day">Day Program is run from Saturday to Thursday. Generally, students are to come four days in a week in the classes. Students who have completed HSC from Science group, `A’ Level from science background and Diploma in science related programs are eligible to study in this program.</string>
+    <string name="contact22">City University</string>
+    <string name="contact33">13/A, Panthapath, Dhaka-1215, Bangladesh</string>
+    <string name="contact44">Cell: 01819813111, 01778149097</string>
+    <string name="contact55">E-mail: arcityuniversity@gmail.com</string>
+    <string name="entry">1. Minimum GPA of 2.5 each in SSC and HSC or equivalent public examinations.\n
+2. Candidates with GPA 2.00 in any examination must have minimum GPA 6.00 combined.\n
+3. In case of the ward of Freedom Fighter, at least GPA 5.00 combined in SSC/Dakhil, HSC/Alim or Equivalent Examination is required. Proof of Certificate must be submitted in this connection.\n
+4. ‘0’ Level in 5 (five) subjects and ‘A’ Level in 2 (two) major subjects with minimum ‘B’ Grade in four subjects and ‘C’ Grade in three subjects.\n
+5. For EEE/CSE programs, students must have had Physics and Mathematics in HSC/A-Level or equivalent level with fulfilling the above criteria.</string>
+    <string name="aboutcse">The Department of Computer Science believes that computer science is a rapidly evolving discipline directly or indirectly affecting many other disciplines including science and engineering, arts, business, etc. It is important that we contribute to computer science in a way that our faculty and students can devote themselves to take the maximal advantage of modern computer science to solve a wide range of complex scientific, technological and social problems.\nDepartment of Computer Science and Engineering was established in City University, with the objectives of imparting quality education in the field of Computer Science and Engineering. With rapidly evolving technology and the continuous need for innovation the Department has always produced quality professionals, holding important positions in Information Technology industry in Bangladesh and abroad. The Department has started with the aim to develop core competence in Computer Science and prepare the students to carry out development work, as well as take up challenges in research. Goal of the Department is to use input from students, faculty, industry, and professional societies to improve the CSE curriculum; to maintain accreditation for Computer Science programs; to provide up-to-date laboratory software and equipment in support of CSE program learning outcomes and to promote faculty creative and scholarly activities, and the integration of those activities with curriculum development.\nAfter 4 years of Graduation, the graduates of the CSE program will: \n>>Be able to face practical professional and engaged in the related areas of Computer Science, Information technology, such as Software Company, Multinational Company, Network Industry and so on.\n>>Be able to continue their study in Post Graduation or professional degrees within Country or abroad.\n>>Contributes to profession and society.\n</string>
+    <string name="why5">The Founders have set up City University with a spirit of social service – not for profit. Compared to the high quality education provided by City University, the tuition and other fees are considered very reasonable compared to other, similar universities.\n</string>
+    <string name="why4">Graduates from the university are often employed at the best and recognized organizations in the country, as well as in reputed multinational and national companies. Many students are hired even before their graduation by the organizations where they do internship. Others get jobs soon after graduation, either through attending Job-Fairs organized by City University, or through aggressive individual effort or joint effort with the Career Service Office at City University.</string>
+    <string name="why3">City University is seriously committed to, and aggressively pursues, the goal of providing the highest quality education. With innovative and student-centered, discussion, and case-study based instruction method, forward looking and practical curricula, carefully selected students, highly qualified faculty ensure this high quality education.</string>
+    <string name="why2">City University hires top-of-the class, talented graduates as junior faculty, experienced teachers and researchers as senior faculty and professionally accomplished experts as adjunct faculty. City University also promotes professional development of all faculties through a series of programs and workshops with the goal to establish the best faculty at any university.</string>
+
+    <string name="why1">City University and its campus, the education programs and curricula, and the governing policies—all are approved by the University Grants Commission. The high quality of education, democratic governance of the University, its strict adherence to laws, policies and rules, impartial selection of students, faculty and staff and non-interference in its academic and administrative affairs from any one or from any quarter—all of these have, over the years, established City University as a proven leader and role-model in the area of higher education. The University now enjoys the reputation of being one of the best and top ranked universities in Bangladesh.</string>
+    <string name="objectives">•  To emerge as the one of the best Universities in Bangladesh in the next few years.\n
+•  To produce high quality possible human resources to cater to the growing need of manpower of socio-     economic development.\n
+• To be a premier contributing organization in the expansion application and innovation of knowledge through continuous research and development.\n</string>
+
+
+    <string name="mission">Creating a culture of excellence” throughout the organization to be manifested by all of our actions and activities.</string>
+    <string name="vision">Vision of City University is to create a culture of excellence in higher education and research and to accelerate national development by establishment of an institution of higher learning that is responsive to society’s needs for the 21st century and beyond.</string>
+    <string name="history2">City University started with three floors of the Blue Ocean Tower in year 2002, 1st of October. We started with the Department of Computer Science and Engineering and the School of Business , offering Bachelor of Computer Science and Engineering (CSE), and Masters and Bachelor of Business Administration (MBA and BBA), respectively. Later, the Department of English, Textiles Engineering and Mechanical Engineering were added upon approval by the University Grants Commission. At present, all departments are providing courses in both the undergraduate and graduate levels. As of date, the Departments of Law, Pharmacy and Pharmacology, Economics, Development Studies, and Telecommunications Engineering are in the final stages of approval by the University Grants Commission (UGC).
+
+City University is serving the interest of the students and the teachers with its well-equipped laboratories, a library with IT-transcription centers (for part-time, on-campus jobs; especially in financial transcription), an upscale cafe, spacious auditorium with surround illumination and sound systems, students’ hostel, and loaded indoor games facilities, complete with billiard and other modern amenities. City University offers scholarships from the Alhaj Mockbul Hossain Foundation for meritorious students as well.
+
+It is not only the physical infrastructure that differentiates City University from the rest of the lot in Dhaka . Rather, it is the cultural and research content that determines the superiority in effort and initiative on the part of the management to compose a “Culture of Excellence” in the campus of City University is culturally intense. Each and every single festival and day is observed with due splendor and color. Students are regularly take part in a host of national and international debates, programming contests, and research workshops. City University proudly hosts five vibrant clubs: Career Development Club, Debating Club, Cultural Club, Sports Club and Magazine Club. The workmanship of our students can not be undermined in any way – especially when this very website is developed for all practical purposes by one of our student named Md. Toufecul Islam.
+
+Behind all the stories of success is a well-coordinated group of dedicated individuals-who have devoted their efforts for the cause of enlightenment the City University Board of Governors. The City University management team consists of Treasurer Md. Majibar Rahman Miah, Vice Chancellor (Acting) Professor Mustafizur Rahman and Others.
+
+The new and permanent campus has started working at Khagan, Savar along with the City Campus in Dhaka.
+
+The authorities of City University involved for the well-being of the students and the University. Some of the programs have already been implemented under the welfare activities :
+
+Educational loan facilities for 10-year-terms
+
+Scholarships for deserving students, and
+On-campus, technology-intensive, part-time job facilities for the students, providing.
+Financial benefits and educational insights are considered at the same time. It is a firm resolves of the Chairperson that no merit shall be wasted only because of poverty. It is with Pride and Honor that City University marches forward for a better Bangladesh, for a better tomorrow, for an achievement of excellence.</string>
+    <string name="history">It was in Mid-autumn 2002 that City University started with fifteen students, two departments, meager resources, and a group of dedicated and dynamic teachers. 16 years since 2002, we have now Eight thousand brilliant students, six computer laboratories, two mechanical workshop and laboratories, one digital laboratory, physics and chemistry laboratories, an extensive textile laboratory, ten booming departments (with two other departments in the process of being organized), well-trained teachers, a spirited team of support staff, and a dedicated management group.\n
+
+What started as an experimental project has now been transformed into a prestigious educational institute with a wide range of well educated, both local and global.</string>
+
+    <string name="about_university"> City University or CU, is a private university in Dhaka, Bangladesh.It was established in 2002.The language of instruction of City University is English. The university offers undergraduate and master\'s degrees in the fields of business administration, mechanical engineering, computer science and engineering,textile engineering, electrical &amp; electronics engineering, law, English, etc</string>
+</resources>

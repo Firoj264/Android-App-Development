@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D57EC"
+    tools:context=".Academiesnavigation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="@dimen/text_margin"
+            android:background="#EF0404"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/academicsystem"
+            android:layout_width="match_parent"
+                android:background="#1EE617"
+            android:layout_height="match_parent"
+            android:text="Academic Sysytem"
+            android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="#EF0404"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/academicsystem2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Academic Rules and Procedure"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#1EE617"
+                android:gravity="center"
+                android:textColor="#EF0404"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/academicsystem3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Registration Procedures"
+            android:textStyle="bold"
+                android:background="#1EE617"
+                android:textSize="25dp"
+                android:textColor="#EF0404"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/academicsystem4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rules of Class Attendence"
+                android:textStyle="bold"
+                android:background="#1EE617"
+                android:textColor="#EF0404"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/academicsystem5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exam and Result Policy"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#EF0404"
+                android:background="#1EE617"
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/academicsystem6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Requirements For Awarding Degree"
+                android:textStyle="bold"
+                android:textColor="#EF0404"
+                android:textSize="25dp"
+                android:background="#1EE617"
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/academicsystem7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Co-curricular Activities"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#EF0404"
+                android:gravity="center"
+                android:background="#1EE617"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
